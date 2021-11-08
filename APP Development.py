@@ -1,7 +1,16 @@
+
 #import the library
+import tkinter as Tk
 from tkinter import *
+from tkinter import filedialog, Text
 #create a window object
 root = Tk()
+
+
+#Define a function
+def addApp():
+    filename= filedialog.askopenfilename(initialdir="/", title="Select File",)
+    filetypes=(()))
 
 
 #setup the window size
@@ -14,10 +23,11 @@ canvas = Canvas(root, width=600, height=900, bg="blue")
 canvas.pack()
 
 #Add a button to root
-openFile = Tk.Button(root, text="Open File", padx=10, pady=5, fg="white", bg="red") 
+openFile = Button(root, text="Open File", padx=10, pady=5, fg="white", 
+                            bg="red" command=addAPP) 
 openFile.pack()
 
-runApps = Tk.Button(root, text="Run Apps", padx=10, pady=5, fg="white", bg="red") 
+runApps = Button(root, text="Run Apps", padx=10, pady=5, fg="white", bg="red") 
 runApps.pack()
 
 
