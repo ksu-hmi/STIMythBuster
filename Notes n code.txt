@@ -1,0 +1,32 @@
+#setup the window size
+frame = Frame(root, width=600, height=600)
+#everything in the window will be considered a button, which calls the callback function when pressed
+frame.bind("<Button-1>", callback)
+#put the sizing and button definition into our window (pack is the simplest method)
+frame.pack()
+
+
+#import the library
+from tkinter import *
+#create a window object
+root = Tk()
+
+
+#setup the window size
+frame = Tk.Frame(root, width=600, height=600)
+#put the sizing  into our window (pack is the simplest method)
+frame.pack()
+
+#setup canvas size and color
+canvas = Canvas(root, width=600, height=900, bg="blue")
+canvas.pack()
+
+#create a frame/border
+frame = Tk.Frame(root, bg="black") 1.8: float
+frame.place(relwidth=1.8, relheight=1.8)
+
+
+#title the overall window
+root.title("STIMythBuster")
+#show the window - windows run in a loop listening for the window close button to break the loop
+root.mainloop()
