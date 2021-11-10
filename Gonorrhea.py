@@ -1,5 +1,5 @@
-# [] create The Weather
-# [] copy and paste in edX assignment page
+# [] create The Gonorrhea Link
+
 
 import os
 cmd ="curl https://www.cdc.gov/std/Gonorrhea -o mean_temp.txt"
