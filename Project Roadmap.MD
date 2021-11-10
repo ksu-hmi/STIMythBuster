@@ -35,8 +35,6 @@ Desired App Functionality
 
 User opens the STIMythBuster app and receives greeting. 
 
-User is prompted to select gender (M/F). 
-
 Next, user is presented with 2 search options: “Search by STI Name” and “Search by STI Symptoms”. 
 
 If the “Search by STI Name” option is selected, the user is presented with a list of available STIs in the form of GUI buttons. Once a selection is made, the user receives an overview of the selected STI including diagnostic and treatment modalities. 
