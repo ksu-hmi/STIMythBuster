@@ -13,7 +13,7 @@ canvas.pack()
 #setup the window size
 frame = Frame(root, bg="white")
 #put the sizing  into our window (pack is the simplest method)
-frame.place(relwidth=0.8, relheight=0.8, relx=0.1, rely=0.1
+frame.place(relwidth=0.8, relheight=0.8, relx=0.1, rely=0.1)
 
 
 #Create a label
