@@ -23,29 +23,28 @@
 
 <li>Test application, debug, retest.</li>
 
-<li>Repeat the process of quality improvement until application displays desired behavior and fits requirements.</li>
-
- 
+<li>Repeat the process of quality improvement until application displays desired behavior and fits requirements.</li><br></br>
 
 
 
 
+<b>Desired App Functionality</b>
+<ol>
 
-Desired App Functionality 
+<li>User opens the STIMythBuster app and receives greeting.</li>
 
-User opens the STIMythBuster app and receives greeting. 
+<li>Next, user is presented with 2 search options: “Search by STI Name” and “Search by STI Symptoms”.</li>
 
-Next, user is presented with 2 search options: “Search by STI Name” and “Search by STI Symptoms”. 
+<li>If the “Search by STI Name” option is selected, the user is presented with a list of available STIs in the form of GUI buttons. Once a selection is made, the user receives an overview of the selected STI including diagnostic and treatment modalities.</li> 
 
-If the “Search by STI Name” option is selected, the user is presented with a list of available STIs in the form of GUI buttons. Once a selection is made, the user receives an overview of the selected STI including diagnostic and treatment modalities. 
+<li>If the user selects the “Search by STI Symptoms” search option, the user is presented with a built-in set of common symptoms that the user can select and deselect via check boxes to obtain a customized search experience.</li> 
 
-If the user selects the “Search by STI Symptoms” search option, the user is presented with a built-in set of common symptoms that the user can select and deselect via check boxes to obtain a customized search experience. 
+<li>Once the desired combination of symptoms is achieved, the user is presented with an STI or list of STIs that match the search criteria. At this point, the user can select a particular STI and receive pertinent info such as symptoms, diagnostic tests, available treatments, etc.</li>  
 
-Once the desired combination of symptoms is achieved, the user is presented with an STI or list of STIs that match the search criteria. At this point, the user can select a particular STI and receive pertinent info such as symptoms, diagnostic tests, available treatments, etc.  
+<b>*NOTE:(STIMythBuster is not a diagnostic application, it merely narrows down the search by presenting items that match user search criteria).</b>
 
-NOTE:(STIMythBuster is not a diagnostic application, it merely narrows down the search by presenting items that match user search criteria). 
-
-After exploring the STI of interest, the user can access the “Sexual Health Connect” option which links the user to additional educational resources such as external links to quality websites and available sexual health services in the community. 
+<li>After exploring the STI of interest, the user can access the “Sexual Health Connect” option which links the user to additional educational resources such as external links to quality websites and available sexual health services in the community.</li>
+ </ol>
 
  
 
