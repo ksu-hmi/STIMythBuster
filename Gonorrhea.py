@@ -18,11 +18,11 @@ root = Tk()
 
 
 
-res_btn = Button(root, text= "CDC Gonorrhea Facts",command=open, padx=30, fg="gray", bg="dark blue")
+gonorrhea_btn = Button(root, text= "CDC Gonorrhea Facts",command=open, padx=30, fg="gray", bg="dark blue")
 
 
 
-res_btn.pack()
+gonorrhea_btn.pack()
 
 
 
