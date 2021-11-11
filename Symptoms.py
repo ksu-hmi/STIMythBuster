@@ -1,5 +1,3 @@
-from tkinter import *
-master = Tk()
 import tkinter as tk
 
 window = tk.Tk()
