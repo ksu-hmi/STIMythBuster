@@ -10,8 +10,8 @@ def open():
 
 root = Tk()
 
-res_btn = Button(root, text= "CDC Chlaymydia Facts",command=open, padx=30, fg="gray", bg="dark blue")
+clyamydia_btn = Button(root, text= "CDC Chlaymydia Facts",command=open, padx=30, fg="gray", bg="dark blue")
 
-res_btn.pack()
+clyamydia_btn.pack()
 
 root.mainloop()
