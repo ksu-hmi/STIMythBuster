@@ -10,8 +10,8 @@ def open():
 
 root = Tk()
 
-res_btn = Button(root, text= "CDC HPV Facts",command=open, padx=30, fg="gray", bg="dark blue")
+hpv_btn = Button(root, text= "CDC HPV Facts",command=open, padx=30, fg="gray", bg="dark blue")
 
-res_btn.pack()
+hpv_btn.pack()
 
 root.mainloop()
