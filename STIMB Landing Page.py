@@ -1,6 +1,6 @@
 #import libraries
 import tkinter as tk
-from PILLOW import Image
+from PIL import ImageTk, Image
 
 #beginning of code
 root = tk.Tk()
@@ -9,11 +9,9 @@ canvas = tk.Canvas(root, bg="purple", width=600, height=400)
 canvas.grid(columnspan=4, rowspan=4)
 
 #logo
-logo = Image.open("logo.png")
-logo = tk.Image.PhotoImage(logo)
-logo_label = tk.Label(image=logo)
-logo_label.image = logo 
-logo_label.grid(column=1, row=0)
+logo = ImageTk.PhotoImage(Image.open("logo.png"))  
+logo.grid(column=1, row=0)
+canvas.create_image(20, 20, anchor=NW, image=logo) 
 
 
 #instrutions - Landing Page
@@ -29,12 +27,12 @@ browse_btn= tk.Button(root, textvariable=browser_text, command=lambda:open_file(
 browser_text.set("SearchbySTI")
 browse_btn.grid(column=1, row=2)
 
-def open_file():
+def open_button():
     browse_text.set("loading....")
 
 #browse button 2
 browse_text = tk.StringVar()
-browse_btn= tk.Button(root, textvariable=browse_text, command=lambda:open_file(), font="Raleway", bg="green", fg="white", height=2, width=15)
+browse_btn= tk.Button(root, textvariable=browse_text, command=lambda:open_button(), font="Raleway", bg="green", fg="white", height=2, width=15)
 browse_text.set("SearchbySymptoms")
 browse_btn.grid(column=2, row=2)
 
