@@ -23,6 +23,8 @@ instructions.grid(columnspan=4, column=0, row=1)
 
 def open_file():
     browser_text.set("loading....")
+    canvas2 = tk.Canvas(root, bg="purple", width=600, height=400)
+    canvas2.grid(columnspan=4, rowspan=4)
 
 #browser button 1
 browser_text = tk.StringVar()
@@ -38,6 +40,8 @@ browse_text = tk.StringVar()
 browse_btn= tk.Button(root, textvariable=browse_text, command=lambda:open_button(), font="Raleway", bg="green", fg="white", height=2, width=15)
 browse_text.set("SearchbySymptoms")
 browse_btn.grid(column=2, row=2)
+
+
 
 
 #ending of code
