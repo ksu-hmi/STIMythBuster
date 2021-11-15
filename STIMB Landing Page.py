@@ -8,10 +8,13 @@ root = tk.Tk()
 canvas = tk.Canvas(root, bg="purple", width=600, height=400)
 canvas.grid(columnspan=4, rowspan=4)
 
-#logo
-logo = ImageTk.PhotoImage(Image.open("logo.png"))  
-logo.grid(column=1, row=0)
-canvas.create_image(20, 20, anchor=NW, image=logo) 
+#Open logo
+load = Image.open("logo.png")
+render = ImageTk.PhotoImage(load)
+#Then associate it with the label:
+img = tk.Label(canvas, image=render)
+img.image = render
+img.place(x=20, y=20)
 
 
 #instrutions - Landing Page
