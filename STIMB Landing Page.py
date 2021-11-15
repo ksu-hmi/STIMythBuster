@@ -18,8 +18,8 @@ img.place(x=20, y=20)
 
 
 #instrutions - Landing Page
-instructions = tk.Label(root, text="Welcome to STIMythBusters", font="Raleway", bg="purple")
-instructions.grid(columnspan=4, column=0, row=1)
+instructions = tk.Label(root, text="Welcome to STIMythBusters", font="Raleway", bg="purple", fg="white")
+instructions.grid(columnspan=4, column=0, row=0)
 
 def open_file():
     browser_text.set("loading....")
