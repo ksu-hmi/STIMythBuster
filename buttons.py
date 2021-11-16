@@ -69,8 +69,8 @@ window = Tk()
 button1 = Button(window, text='Chlamydia')
 button1.config(command=click) # performs call back of function
 button1.config(height=2, width=15)
-button1.config(font=('Georgia', 25, 'bold'))
-button1.config(bg='orange')
+button1.config(font=('Comic Sans', 30, 'bold'))
+button1.config(bg='#DE1F37')
 button1.config(fg='white')
 button1.grid(row=0, column=0)
 
@@ -157,8 +157,8 @@ Urologist
 button2 = Button(window, text='Gonorrhea')
 button2.config(command=click1) # performs call back of function
 button2.config(height=2, width=15)
-button2.config(font=('Georgia', 25, 'bold'))
-button2.config(bg='#DE1F27')
+button2.config(font=('Comic Sans', 30, 'bold'))
+button2.config(bg='#1FDEC6')
 button2.config(fg='white')
 button2.grid(row=1, column=0)
 
@@ -168,8 +168,8 @@ def click2():
 button3 = Button(window, text='HPV')
 button3.config(command=click2) # performs call back of function
 button3.config(height=2, width=15)
-button3.config(font=('Georgia', 25, 'bold'))
-button3.config(bg='#B6DE1F')
+button3.config(font=('Comic Sans', 30, 'bold'))
+button3.config(bg='#DE1F37')
 button3.config(fg='white')
 button3.grid(row=2, column=0)
 
@@ -179,8 +179,8 @@ def click3():
 button4 = Button(window, text='Syphilis')
 button4.config(command=click3) # performs call back of function
 button4.config(height=2, width=15)
-button4.config(font=('Georgia', 25, 'bold'))
-button4.config(bg='#D4DE1F')
+button4.config(font=('Comic Sans', 30, 'bold'))
+button4.config(bg='#1FDEC6')
 button4.config(fg='white')
 button4.grid(row=3, column=0)
 
@@ -192,8 +192,8 @@ def click4():
 button5 = Button(window, text='Trichomoniasis')
 button5.config(command=click4) # performs call back of function
 button5.config(height=2, width=15)
-button5.config(font=('Georgia', 25, 'bold'))
-button5.config(bg='#1FDED6')
+button5.config(font=('Comic Sans', 30, 'bold'))
+button5.config(bg='#DE1F37')
 button5.config(fg='white')
 button5.grid(row=4, column=0)
 
