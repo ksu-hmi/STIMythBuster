@@ -1,7 +1,8 @@
 from tkinter import *
 
 def click():
-    print("""General Facts 
+    print("""
+General Facts 
 
 A common sexually transmitted infection caused by the bacteria Chlamydia trachomatis.  
 
@@ -54,7 +55,8 @@ Urologist
 
 If left untreated: 
 
-Pelvic inflammatory disease (PID), infertility and ectopic pregnancy in women.""")
+Pelvic inflammatory disease (PID), infertility and ectopic pregnancy in women.
+""")
 
  
  
@@ -75,7 +77,8 @@ button1.config(fg='white')
 button1.grid(row=0, column=0)
 
 def click1():
-    print("""Gonorrhea 
+    print("""
+Gonorrhea 
 
 A sexually transmitted bacterial infection caused by the bacteria Neisseria gonorrhea. It often affects the urethra, rectum, or throat. 
 
