@@ -46,7 +46,56 @@ chlamydia_info =    """
     """
 
 gonorrhea_info =    """ 
-    ENTER TEXT HERE
+    Gonorrhea 
+
+    General Facts 
+    A sexually transmitted bacterial infection caused by the bacteria Neisseria gonorrhea. It often affects the urethra, rectum, or throat. 
+
+    Symptoms: 
+    Men: 
+    Frequent urination 
+    Puss-like discharge from the penis or pain in the testicle 
+    Persistent sore throat 
+
+    Women: 
+    Discharge from the vagina 
+    Pain or burning sensation while urinating 
+    Heavier periods or spotting 
+    Pain during sexual intercourse 
+    Sharp pain in the lower abdomen 
+    Sore throat, fever 
+
+    Causes: 
+    It is caused by the bacterium Neisseria gonorrhea. 
+    Affects the mouth, throat, eyes, rectum and female reproductive tract. 
+    It spreads through unprotected sex. 
+    Can be passed from an infected mother to her baby during delivery. 
+
+    Prevention: 
+    Stay away from unprotected sex  
+    Always use a condom 
+    Get tested if suspicious of infection 
+
+    Complications: 
+    Pelvic inflammatory disease in women (PID) 
+    Blockage or scarring of fallopian tubes 
+    Scarring in the urethra in men 
+    Ectopic pregnancy 
+    Painful abscess may develop in the interior of the penis. 
+
+    Diagnosis: 
+    Swab test: a sample is collected either from the genitals or mouth and tested for the presence of bacteria. 
+
+    Treatment: 
+    Antibiotics to kill the bacteria such as Ceftriaxone and Azithromycin 
+
+    Self-care Strategies: 
+    Avoid sexual intercourse during the treatment period. 
+
+    Specialist to Consult: 
+    Gynecologist 
+    Urologist 
+    
     """
 
 hpv_info =    """ 
