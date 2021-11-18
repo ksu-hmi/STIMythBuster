@@ -1,7 +1,7 @@
 <b>Development and Production Project Roadmap:</b>
 
 <ol>
- <li>Draft APP Requirements.</li>
+ <li>Draft APP Requirements.</li> DONE
 
   <li>Compile a curated library/list of common STIs.</li> 
 
@@ -15,13 +15,13 @@
 
 <li>Recycle, modify/edit existing code to match requirements.</li>
 
-<li>Create in-house, customized code to achieve desired functionality.</li>
+<li>Create in-house, customized code to achieve desired functionality.</li> DONE
 
-<li>Run application and validate against requirements.</li>
+<li>Run application and validate against requirements.</li> 
 
-<li>Further enhance and finetune basic functionality.</li> 
+<li>Further enhance and finetune basic functionality.</li> DONE
 
-<li>Test application, debug, retest.</li>
+<li>Test application, debug, retest.</li> 
 
 <li>Repeat the process of quality improvement until application displays desired behavior and fits requirements.</li><br></br>
 
@@ -35,7 +35,7 @@
 
 <li>Next, user is presented with 2 search options: “Search by STI Name” and “Search by STI Symptoms”.</li>
 
-<li>If the “Search by STI Name” option is selected, the user is presented with a list of available STIs in the form of GUI buttons. Once a selection is made, the user receives an overview of the selected STI including diagnostic and treatment modalities.</li> 
+<li>If the “Search by STI Name” option is selected, the user is presented with a list of available STIs in the form of GUI buttons. Once a selection is made, the user receives an overview of the selected STI including diagnostic and treatment modalities.</li> DONE
 
 <li>If the user selects the “Search by STI Symptoms” search option, the user is presented with a built-in set of common symptoms that the user can select and deselect via check boxes to obtain a customized search experience.</li> 
 
