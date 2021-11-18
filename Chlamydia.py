@@ -10,7 +10,7 @@ def open():
 
 root = Tk()
 
-clyamydia_btn = Button(root, text= "CDC Chlaymydia Facts",command=open, padx=30, fg="gray", bg="dark blue")
+clyamydia_btn = Button(root, text= "CDC Chlamydia Facts",command=open, padx=300, pady=300 fg="gray", bg="blue")
 
 clyamydia_btn.pack()
 
