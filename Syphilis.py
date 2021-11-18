@@ -10,7 +10,7 @@ def open():
 
 root = Tk()
 
-syphilis_btn = Button(root, text= "CDC Syphilis Facts",command=open, padx=30, fg="gray", bg="dark blue")
+syphilis_btn = Button(root, text= "CDC Syphilis Facts",command=open, padx=300, pady=300, fg="gray", bg="blue")
 
 syphilis_btn.pack()
 
