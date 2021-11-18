@@ -31,7 +31,7 @@
 <b>Desired App Functionality</b>
 <ol>
 
-<li>User opens the STIMythBuster app and receives greeting.</li>
+ <li>User opens the STIMythBuster app and receives greeting.</li> <b>*DONE</b>
 
 <li>Next, user is presented with 2 search options: “Search by STI Name” and “Search by STI Symptoms”.</li>
 
