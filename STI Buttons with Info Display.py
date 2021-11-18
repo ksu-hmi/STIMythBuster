@@ -110,6 +110,10 @@ trichomoniasis_info =    """
     ENTER TEXT HERE
     """
 
+genitalHerpes_info =    """ 
+    ENTER TEXT HERE
+    """
+
 #ACTIONS
 def click():
     print("Chlamydia")
@@ -149,6 +153,14 @@ def click4():
     window = tk.Toplevel(main_window)
     window.title("Trichomoniasis Information")
     info = tk.Label(window, text=trichomoniasis_info, foreground="black")
+    info.config(font=('Georgia', 12))
+    info.grid(row=0, column=0, columnspan=3)
+
+def click5():
+    print("Genital Herpes")
+    window = tk.Toplevel(main_window)
+    window.title("Genital Herpes Information")
+    info = tk.Label(window, text=genitalHerpes_info, foreground="black")
     info.config(font=('Georgia', 12))
     info.grid(row=0, column=0, columnspan=3)
 
@@ -202,6 +214,16 @@ def click4_setup():
     button5.config(fg='white')
     button5.grid(row=4, column=0)
 
+def click5_setup():
+    print("Genital Herpes")
+    button5 = tk.Button(text='Genital Herpes')
+    button5.config(command=click4) # performs call back of function
+    button5.config(height = 5, width = 25)
+    button5.config(font=('Georgia', 15, 'bold'))
+    button5.config(bg='#DE1FBC')
+    button5.config(fg='white')
+    button5.grid(row=4, column=0)
+
 
 main_window = tk.Tk()
 main_window.title("STI Educational Health App")
@@ -211,5 +233,6 @@ click1_setup()
 click2_setup()
 click3_setup()
 click4_setup()
+click5_setup()
 
 main_window.mainloop()
