@@ -18,7 +18,7 @@ root = Tk()
 
 
 
-gonorrhea_btn = Button(root, text= "CDC Gonorrhea Facts",command=open, padx=30, fg="gray", bg="dark blue")
+gonorrhea_btn = Button(root, text= "CDC Gonorrhea Facts",command=open, padx=300, pady=300, fg="gray", bg="dark blue")
 
 
 

@@ -7,7 +7,6 @@ window.geometry('400x400')
 l = tk.Label(window, width=20, text='Select all symptoms that apply:')
 l.pack()
  
-var1 = tk.IntVar()
 c1 = tk.Checkbutton(window, text='Bleeding', onvalue=1, offvalue=0)
 c1.pack()
 c2 = tk.Checkbutton(window, text='Burning sensation when urinating', onvalue=1, offvalue=0)
