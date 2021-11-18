@@ -18,14 +18,17 @@ img.place(x=20, y=20)
 
 
 #instrutions - Landing Page
-instructions = tk.Label(root, text="Welcome to STIMythBusters", font="Raleway", bg="purple", fg="white")
+instructions = tk.Label(root, text="Welcome to STIMythBusters", font="Raleway", bg="brown", fg="white")
 instructions.grid(columnspan=4, column=0, row=0)
 
 def open_file():
     browser_text.set("loading....")
     canvas2 = tk.Canvas(root, bg="purple", width=600, height=400)
-    canvas2.grid(columnspan=4, rowspan=4)
+    canvas2.grid(columnspan=4, rowspan=4) 
 
+details = tk.Canvas(root, text="Search STI Symptoms to better understand the Sexually Transmitted Infection", font="Raleway", bg="brown", fg="white")
+    
+    
 #browser button 1
 browser_text = tk.StringVar()
 browse_btn= tk.Button(root, textvariable=browser_text, command=lambda:open_file(), font="Raleway", bg="green", fg="white", height=2, width=15)
