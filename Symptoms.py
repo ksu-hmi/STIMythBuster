@@ -1,5 +1,6 @@
 import tkinter as tk
 
+def click_me():
     print(var1.get())
     print(var2.get())
  
