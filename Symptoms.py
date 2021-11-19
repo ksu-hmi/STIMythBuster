@@ -1,15 +1,20 @@
 import tkinter as tk
 
+    print(var1.get())
+    print(var2.get())
+ 
 window = tk.Tk()
 window.title('STIMythBuster')
 window.geometry('400x400')
  
-l = tk.Label(window, width=20, text='Select all symptoms that apply:')
+l = tk.Label(window, width=60, text='Select all symptoms that apply:')
 l.pack()
- 
-c1 = tk.Checkbutton(window, text='Bleeding', onvalue=1, offvalue=0)
+
+var1 = tk.IntVar()
+var2 = tk.IntVar()
+c1 = tk.Checkbutton(window, text='Bleeding', variable=var1, onvalue=1, offvalue=0)
 c1.pack()
-c2 = tk.Checkbutton(window, text='Burning sensation when urinating', onvalue=1, offvalue=0)
+c2 = tk.Checkbutton(window, text='Burning sensation when urinating', variable=var2, onvalue=1, offvalue=0)
 c2.pack()
 c3 = tk.Checkbutton(window, text='Painful bowel movements', onvalue=1, offvalue=0)
 c3.pack() 
@@ -24,12 +29,10 @@ c7.pack()
 c8 = tk.Checkbutton(window, text='Itching or irritation', onvalue=1, offvalue=0)
 c8.pack() 
 
+b = Button(window,text="Click here",command=click_me)
+b.pack()
+
 window.mainloop()
 
-def click_me():
-    print(i.get())
- 
-b = Button(root,text="Click here",command=click_me)
-b.pack()
 
 
