@@ -30,7 +30,7 @@ c7.pack()
 c8 = tk.Checkbutton(window, text='Itching or irritation', onvalue=1, offvalue=0)
 c8.pack() 
 
-b = Button(window,text="Click here",command=click_me)
+b = tk.Button(window,text="Click here",command=click_me)
 b.pack()
 
 window.mainloop()
