@@ -37,7 +37,7 @@
 
 <li>If the “Search by STI Name” option is selected, the user is presented with a list of available STIs in the form of GUI buttons. Once a selection is made, the user receives an overview of the selected STI including diagnostic and treatment modalities.</li> DONE
 
-<li>If the user selects the “Search by STI Symptoms” search option, the user is presented with a built-in set of common symptoms that the user can select and deselect via check boxes to obtain a customized search experience.</li> 
+<li>If the user selects the “Search by STI Symptoms” search option, the user is presented with a built-in set of common symptoms that the user can select and deselect via check boxes to obtain a customized search experience.</li> DONE
 
 <li>Once the desired combination of symptoms is achieved, the user is presented with an STI or list of STIs that match the search criteria. At this point, the user can select a particular STI and receive pertinent info such as symptoms, diagnostic tests, available treatments, etc.</li>  
 
