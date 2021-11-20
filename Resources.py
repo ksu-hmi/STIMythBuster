@@ -7,7 +7,7 @@ def open():
 
 root = Tk()
 
-res_btn = Button(root, text= "Resources",command=open, padx=300, pady=300, fg="fuchsia", bg="dark blue")
+res_btn = Button(root, text= "Resources",command=open, padx=100, pady=40, fg="fuchsia", bg="dark blue")
 
 res_btn.pack()
 
