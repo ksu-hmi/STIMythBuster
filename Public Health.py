@@ -12,8 +12,6 @@ res_btn = Button(root, text= "GA Dept of Public Health",command=open, padx=100, 
 res_btn.pack()
 
 
-
-
 def resize(e):
     size = e.width / 30
     res_btn.config(font=("Helveltica", int(size)))
@@ -22,3 +20,4 @@ def resize(e):
 root.bind('<Configure>', resize)
 
 root.mainloop()
+

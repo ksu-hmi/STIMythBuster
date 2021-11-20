@@ -11,7 +11,13 @@ res_btn = Button(root, text= "Resources",command=open, padx=100, pady=40, fg="fu
 
 res_btn.pack()
 
+
+def resize(e):
+    size = e.width / 20
+    res_btn.config(font=("Helveltica", int(size)))
+  
+
+root.bind('<Configure>', resize)
+
 root.mainloop()
-
-
 
