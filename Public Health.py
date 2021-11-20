@@ -7,8 +7,18 @@ def open():
 
 root = Tk()
 
-res_btn = Button(root, text= "GA Dept of Public Health",command=open, padx=100, pady=40, fg="yellow", bg="teal")
+res_btn = Button(root, text= "GA Dept of Public Health",command=open, padx=100, pady=50, fg="yellow", bg="teal")
 
 res_btn.pack()
+
+
+
+
+def resize(e):
+    size = e.width / 30
+    res_btn.config(font=("Helveltica", int(size)))
+  
+
+root.bind('<Configure>', resize)
 
 root.mainloop()
