@@ -21,7 +21,7 @@
 
 <li>Further enhance and finetune basic functionality.</li> DONE
 
-<li>Test application, debug, retest.</li> 
+<li>Test application, debug, retest.</li> DONE
 
 <li>Repeat the process of quality improvement until application displays desired behavior and fits requirements.</li><br></br>
 
