@@ -43,7 +43,7 @@
 
 <b>*NOTE:(STIMythBuster is not a diagnostic application, it merely narrows down the search by presenting items that match user search criteria).</b>
 
-<li>After exploring the STI of interest, the user can access the “Sexual Health Connect” option which links the user to additional educational resources such as external links to quality websites and available sexual health services in the community.</li>
+<li>After exploring the STI of interest, the user can access the “Sexual Health Connect” option which links the user to additional educational resources such as external links to quality websites and available sexual health services in the community.</li> DONE
  </ol>
 
  
