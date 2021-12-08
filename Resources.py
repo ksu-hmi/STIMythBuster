@@ -7,11 +7,17 @@ def open():
 
 root = Tk()
 
-res_btn = Button(root, text= "Resources",command=open, padx=300, pady=300, fg="fuchsia", bg="dark blue")
+res_btn = Button(root, text= "Resources",command=open, padx=100, pady=50, fg="fuchsia", bg="dark blue")
 
 res_btn.pack()
 
+
+def resize(e):
+    size = e.width / 20
+    res_btn.config(font=("Helveltica", int(size)))
+  
+
+root.bind('<Configure>', resize)
+
 root.mainloop()
-
-
 
